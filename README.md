@@ -1,8 +1,8 @@
 # Kri-mago
 
-Seja criativa!
+Sorteio de roteiro aleatório referente a uma obra literária.
 
-## 🔮 Quando você está querendo escrever, mas...
+## 🔮 Quando você está querendo escrever, mas está sem criatividade...
 
 - Faça o sorteio;
 - Salve o resultado;
