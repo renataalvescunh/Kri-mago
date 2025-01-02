@@ -318,15 +318,27 @@ document.getElementById("fraseCompleta").textContent = fraseCompleta;
 }
 
 
+function esconderBotao() {
+  var botao = document.getElementById("sortearPlot");
+  botao.style.display = "none";
+}
+
+function mostrarOutroBotao() {
+  var outroBotao = document.getElementById("refazerPlot");
+  outroBotao.style.display = "initial";
+}
+
+function executarFuncoes() {
+  formarFrase();
+  esconderBotao();
+  mostrarOutroBotao();
+}
 
 function copiarFrase() {
   var fraseCompleta = document.getElementById("fraseCompleta").textContent;
-  navigator.clipboard.writeText(fraseCompleta).then(function() {
-    alert("──★ A frase foi copiada com sucesso!");
-  },  function() {
-    alert("Não foi possível copiar a frase.");
+  navigator.clipboard.writeText(fraseCompleta).then(function () {
+    alert("Legal! Você copiou o seu roteiro. Aproveite para alongar seu cérebro e colocar seus neurônios na maratona!");
+  }, function () {
+    alert("Algo deu errado, que tal copiar com ctrl c + crtl v? :D");
   });
 }
-function refazerSorteio() {
-}
-
