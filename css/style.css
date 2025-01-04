@@ -106,28 +106,32 @@ body {
     text-align: center;
     padding: 10px;
     border-radius: 30px;
-    border: none;
-    background-image: linear-gradient(-90deg, #7654e7 4%, hsl(269, 86%, 78%) 50%);    
-}
+    border: none; }
 
-
-.content-2 button:hover:first-child {
+    #sortearPlot {
     background-image: linear-gradient(-60deg, #f2ff00 4%, #f29500 50%);
     animation: mygradient 3s ease infinite;
     background-size: 400% 400%;
-}
+   }
 
-.content-2 button:hover:nth-child(4) {
-  background-image: linear-gradient(-60deg, #f2ff00 4%, #f29500 50%);
-  animation: mygradient 2s ease infinite;
-    background-size: 400% 400%; 
-}
+     #sortearPlot:hover{
+    background-image: linear-gradient(-60deg, #0d7e7a 4%, #00baf2 50%);
+    animation: mygradient 3s ease infinite;
+    background-size: 400% 400%;
+     }
 
-.content-2 button:hover:nth-child(5) {
+  #refazerPlot {
     background-image: linear-gradient(-60deg, #ff0000 4%, #ff2e2e 50%);
     animation: mygradient 2s ease infinite;
     background-size: 400% 400%;
-}
+  }
+
+  #refazerPlot:hover {
+    background-image: linear-gradient(-20deg, #828282 4%, #202020 50%);
+    animation: mygradient 3s ease infinite;
+    background-size: 400% 400%;
+  }
+
 
 *::selection {
   background: #e4aadb;
